@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Lesson 8. Font Awesome. Basic animation</h1>
+    <h2>Font Awesome + transition</h2>
+    <div class="top">
+        <ul class="fa-ul">
+            <li><i class="fa-li fa fa-check-square"></i>Marvel</li>
+            <li><i class="fa-li fa fa-spinner fa-spin"></i>DS</li>
+            <li><i class="fa-li fa fa-square"></i>Starwars</li>
+          </ul>
+    </div>
+    <p>наведись на синий блок и узри магию transition</p>
+    <h2>Transform</h2>
+    <div class="mother">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+    <p><b>Transform & keyframes</b> в действии</p>
+    <h2>CSS Backgraund</h2>
+    <div class="img"></div>
+    <p>вставляем картинку через <b>CSS</b> свойство <b>backgraund</b></p>
+    <h2>Images (HTML Picture)</h2>
+    <div>
+        <picture>
+            <source srcset="./original.jpeg" media="min-width: 2560px">
+            <source srcset="./1200px-Star_Wars_Logo.svg.png" media="min-width: 1200px">
+            <source srcset="./dc-logo-1200x628-1-1200x628.jpeg.crdownload" media="min-width: 700px">
+        </picture>     
+    <p>использования тега <b>picture</b> для использования нужной картинки на нужном разширении экрана</p>
+    <p>открой эту страницу на разных девайсах и посмотри результат</p>
+    </div>
+    <h2>Universes (HTML object-fit)</h2>
+    <div class="father">
+        <div class="univers">
+            <div class="block"><img src="./1200px-Star_Wars_Logo.svg.png" alt=""></div>
+            <p>здесь кроется картинка <b>300х300</b></p>
+        </div>
+        <div class="univers">
+            <div class="block"><img src="./dc-logo-1200x628-1-1200x628.jpeg.crdownload" alt=""></div>
+            <p>здесь кроется картинка <b>700х900</b></p>
+        </div>
+        <div class="univers">
+            <div class="block"><img src="./original.jpeg" alt=""></div>
+            <p>здесь кроется картинка <b>1080х2500</b></p>
+        </div>
+    </div>
+    <h2>Universes in a row</h2>
+    <div class="parent">
+        <div class="content">
+            <div class="image"><img src="./original.jpeg" alt=""></div>
+           <div class="text">
+            <h3>Marvel</h3>
+            <p>Marvel was started in 1939 by Martin Goodman under a number of corporations and imprints but now known as Timely Comics, and by 1951 had generally become known as Atlas Comics. The Marvel era began in 1961, the year that the company launched The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which had been used over the years, was solidified as the company's primary brand.</p>
+           </div>
+        </div>
+        <div class="content">
+            <div class="image"><img src="./dc-logo-1200x628-1-1200x628.jpeg.crdownload" alt=""></div>
+            <div class="text">
+                <h3>DC</h3>
+            <p>DC Comics is one of the largest and oldest American comic book companies, with their first comic under the DC banner being published in 1937. The majority of its publications take place within the fictional DC Universe and feature numerous culturally iconic heroic characters, such as Superman, Batman, and Wonder Woman. It is widely known for some of the most famous and recognizable teams including the Justice League, the Justice Society of America, and the Teen Titans. The universe also features a large number of well-known supervillains such as the Joker, Lex Luthor, and Darkseid. The company has published non-DC Universe-related material, including Watchmen, V for Vendetta, Fables and many titles under their alternative imprint Vertigo.</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="image"><img src="./1200px-Star_Wars_Logo.svg.png" alt=""></div>
+            <div class="text">
+                <h3>Star Wars</h3>
+                <p>Star Wars is an American epic space opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop-culture phenomenon. The franchise has been expanded into various films and other media, including television series, video games, novels, comic books, theme park attractions, and themed areas, comprising an all-encompassing fictional universe. In 2020, its total value was estimated at US$70 billion, and it is currently the fifth-highest-grossing media franchise of all time.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
